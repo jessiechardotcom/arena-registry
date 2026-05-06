@@ -1,4 +1,4 @@
-// Registry app — fetches items from Airtable via Netlify function,
+// Registry app — fetches items from Are.na via Netlify function,
 // handles category/status filtering, and manages the claim flow.
 
 const state = {
