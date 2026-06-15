@@ -142,7 +142,7 @@ function buildCard(item) {
   const body = document.createElement("div");
   body.className = "card-body";
 
-  if (item.price != null) {
+  if (item.price != null && quantityClaimed === 0) {
     const price = document.createElement("p");
     price.className = "card-price";
     price.textContent = "$" + item.price.toLocaleString("en-US", { minimumFractionDigits: 0, maximumFractionDigits: 0 });
